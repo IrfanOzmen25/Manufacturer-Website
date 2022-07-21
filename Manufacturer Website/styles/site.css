@@ -1,0 +1,57 @@
+h2{
+    
+    font-size: 40px;
+    background-color: black;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+body header p{
+    margin-left: 20em;
+    margin-top: 3em;
+    font-size: 20px;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+label{
+    margin-bottom: 0.2em;
+    padding-top: 1em;
+    
+}
+
+body div.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 25em;
+    
+}
+body nav p{
+    margin-left: 20em;
+    margin-top: 3em;
+    font-size: 20px;
+    margin-bottom: 2em;
+    font-weight: bold;
+}
+
+footer p{
+    color: white;
+    background-color: black;
+    margin-top: 4em;
+    padding-top: 2em;
+    padding-bottom: 3em;
+    margin-bottom: -1em;
+    padding-left: 2em;
+}
+button{
+    margin-top: 3em;
+    margin-left: 25em;
+}
+
+body div div input{
+    flex-grow: 0;
+    flex-basis: 400px;
+}
+body div div select{
+    flex-grow: 0;
+    flex-basis: 250px;
+}

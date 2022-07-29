@@ -1,4 +1,4 @@
-h2{
+header h2{
     
     font-size: 40px;
     background-color: #1B1E22;
@@ -12,17 +12,18 @@ h2{
 
 
 
-nav{
+header nav{
     background-color: #1B1E22;
     padding-top: 4.5em;
     padding-bottom: 3.3em;
     padding-right: 3em;
     
 }
-nav ul li{
+header nav ul li{
     display: inline;
     
- }
+
+}
 
 
 body{
@@ -38,8 +39,8 @@ body header nav{
     display: flex;
     flex-direction: row-reverse;
     
-    
 }
+
 
  
  
@@ -85,10 +86,19 @@ body header p{
 }
 p{
     margin-left: 20em;
+    margin-right: 20em;
     margin-top: 3em;
     font-size: 20px;
     margin-bottom: 2em;
     color: white;
+}
+p.head{
+    margin-left: 29em;
+    font-size: 30px;
+}
+img{
+    margin-left: 43em;
+   
 }
 label{
     margin-bottom: 0.2em;
@@ -96,12 +106,7 @@ label{
     
 }
 
-body div.container{
-    display: flex;
-    flex-direction: row;
-    margin-left: 25em;
-    
-}
+
 body nav p{
     margin-left: 20em;
     margin-top: 3em;
@@ -109,6 +114,7 @@ body nav p{
     margin-bottom: 2em;
     font-weight: bold;
 }
+
 
 footer div{
     color: white;
@@ -119,16 +125,15 @@ footer div{
     margin-bottom: -1em;
     padding-left: 2em;
 }
-button{
-    margin-top: 3em;
-    margin-left: 25em;
-}
 
-body div div input{
-    flex-grow: 0;
-    flex-basis: 400px;
-}
-body div div select{
-    flex-grow: 0;
-    flex-basis: 250px;
-}
+
+
+
+
+
+ 
+ 
+
+
+
+

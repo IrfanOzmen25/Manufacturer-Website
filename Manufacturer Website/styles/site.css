@@ -60,9 +60,6 @@ body header nav{
     
  }
 
- label{
-    color: white;
- }
 
 
 
@@ -76,39 +73,10 @@ body header nav{
 
 
 
-body header p{
-    margin-left: 20em;
-    margin-top: 3em;
-    font-size: 20px;
-    margin-bottom: 2em;
-    font-weight: bold;
-}
-p{
-    margin-left: 20em;
-    margin-top: 3em;
-    font-size: 20px;
-    margin-bottom: 2em;
-    color: white;
-}
-label{
-    margin-bottom: 0.2em;
-    padding-top: 1em;
-    
-}
 
-body div.container{
-    display: flex;
-    flex-direction: row;
-    margin-left: 25em;
-    
-}
-body nav p{
-    margin-left: 20em;
-    margin-top: 3em;
-    font-size: 20px;
-    margin-bottom: 2em;
-    font-weight: bold;
-}
+
+
+
 
 footer div{
     color: white;
@@ -119,16 +87,99 @@ footer div{
     margin-bottom: -1em;
     padding-left: 2em;
 }
-button{
-    margin-top: 3em;
-    margin-left: 25em;
+
+
+
+
+
+
+
+
+
+
+
+
+
+html,
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+}
+body div form{
+    margin-left: 50em;
+    margin-bottom: 10em;
+}
+h1 {
+    margin: 0 0 20px;
+    margin-left: 5em;
+    font-weight: 400;
+    color: white;
 }
 
-body div div input{
-    flex-grow: 0;
-    flex-basis: 400px;
+p {
+    margin: 0 0 5px;
 }
-body div div select{
-    flex-grow: 0;
-    flex-basis: 250px;
+
+.main-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #1c87c9;
+    
+}
+
+form {
+    padding: 25px;
+    margin: 25px;
+
+
+}
+
+
+
+
+
+input,
+textarea {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+}
+
+input::placeholder {
+    color: #666;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #1c87c9;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+button:hover {
+    background: #2371a0;
+}
+
+@media (min-width: 568px) {
+    .main-block {
+        flex-direction: row;
+    }
+
+    .left-part,
+    form {
+        width: 30%;
+    }
+
 }
